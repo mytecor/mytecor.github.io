@@ -95,11 +95,6 @@ a {
 	width: 100%;
 	border-radius: 12px;
 	--smooth-corners: 6;
-	mask-image: none;
-	-webkit-mask-image: none;
-	mask-image: paint(smooth-corners);
-	-webkit-mask-image: paint(smooth-corners);
-
 }
 
 .sidebar .button {

@@ -136,6 +136,7 @@ h2 {
 .about p {
 	margin: 0;
 	margin-top: 12px;
+	margin-left: 12px;
 	padding-left: 10px;
 	border-left: 2px solid currentColor;
 }

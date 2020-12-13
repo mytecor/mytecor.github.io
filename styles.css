@@ -95,6 +95,7 @@ a {
 	width: 100%;
 	border-radius: 40px;
 	--smooth-corners: 5;
+	margin-bottom: 12px;
 }
 
 .sidebar .button {

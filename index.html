@@ -104,8 +104,8 @@
 	<script>
 		let el = document.querySelector('.logo').style
 		if('paintWorklet' in CSS) CSS.paintWorklet.addModule('https://unpkg.com/smooth-corners').then(() => {
-			el.maskImage = 'paint(smooth-corners)'
-			el.webkitMaskImage = 'paint(smooth-corners)'
+			el.mask = 'paint(smooth-corners)'
+			el.webkitMask = 'paint(smooth-corners)'
 		})
 	</script>
 </body>

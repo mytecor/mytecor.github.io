@@ -95,8 +95,6 @@ a {
 	width: 100%;
 	border-radius: 40px;
 	--smooth-corners: 5;
-	mask: paint(smooth-corners);
-	-webkit-mask: paint(smooth-corners);
 	margin-bottom: 12px;
 }
 

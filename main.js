@@ -1,6 +1,8 @@
 
+let language = navigator.language.substring(0, 2)
+
 function locale(obj) {
-	return obj[navigator.language] || obj.en
+	return obj[language] || obj.en
 }
 
 

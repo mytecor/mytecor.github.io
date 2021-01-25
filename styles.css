@@ -7,38 +7,40 @@
 	-webkit-tap-highlight-color: transparent;
 }
 
-html {
-	min-height: 100%;
+body {
+	background-color: #342e37;
+	color: #fff;
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	margin: 0;
+}
+
+.root {
+	min-height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
-body {
-	background-color: #342e37;
-	color: #fff;
-	margin: 10vh 12px;
-	font-family: Roboto, sans-serif;
-	font-size: 14px;
-}
-
 
 .row {
-	display: flex;
 	justify-content: center;
+	margin: 10vh -8px;
+	display: flex;
 	flex-wrap: wrap;
-	margin: 0 -6px;
+	padding: 0 16px;
+	width: 100%;
 }
 
 .row > * {
-	margin: 0 6px;
+	margin: 0 8px;
 }
 
 .button {
 	text-decoration: none;
 	background: #2a252c;
-	padding: 12px;
-	border-radius: 12px;
+	padding: 16px;
+	border-radius: 16px;
 	backface-visibility: hidden;
 	transition: 0.2s;
 }
@@ -87,7 +89,7 @@ a {
 
 .links {
 	position: sticky;
-	top: 12px;
+	top: 16px;
 }
 
 .logo {
@@ -95,18 +97,18 @@ a {
 	width: 100%;
 	border-radius: 40px;
 	--smooth-corners: 5;
-	margin-bottom: 12px;
+	margin-bottom: 16px;
 }
 
 .sidebar .button {
 	display: flex;
 	align-items: center;
-	margin-top: 12px;
+	margin-top: 16px;
 	font-weight: 600;
 }
 
 .sidebar svg {
-	margin-right: 12px;
+	margin-right: 16px;
 	width: 18px;
 	height: 18px;
 }
@@ -124,28 +126,29 @@ a {
 
 h1 {
 	font-size: 2em;
-	margin: 12px;
+	margin: 16px;
 }
 
 h2 {
 	font-size: 1.3em;
-	margin: 12px;
+	margin: 16px;
 	margin-top: 20px;
 }
 
 .about p {
 	margin: 0;
-	margin-top: 12px;
-	margin-left: 12px;
+	margin-top: 16px;
+	margin-left: 16px;
+	margin-right: 16px;
 	padding-left: 10px;
 	border-left: 2px solid currentColor;
 }
 
 .projects {
-	margin-top: 12px;
+	margin-top: 16px;
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-	grid-gap: 12px;
+	grid-gap: 16px;
 }
 
 .projects h3 {
@@ -161,7 +164,7 @@ h2 {
 
 .projects p {
 	margin: 0;
-	margin-top: 12px;
+	margin-top: 16px;
 	text-decoration: none;
 }
 

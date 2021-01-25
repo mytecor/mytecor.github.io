@@ -1,8 +1,8 @@
 
-let language = navigator.language.substring(0, 2)
+let language = navigator.languages.includes('ru')? 'ru' : 'en'
 
 function locale(obj) {
-	return obj[language] || obj.en
+	return obj[language]
 }
 
 

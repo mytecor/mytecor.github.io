@@ -49,9 +49,8 @@ body {
 	width: 18px;
 	height: 18px;
 	margin-right: 8px;
-	display: inline-block;
 	fill: currentColor;
-	vertical-align: middle;
+	vertical-align: bottom;
 }
 
 .button:hover {
@@ -110,22 +109,10 @@ a {
 }
 
 .sidebar .button {
-	display: flex;
-	align-items: center;
+	display: block;
 	margin-top: 16px;
 	font-weight: 600;
 }
-
-.sidebar svg {
-	margin-right: 16px;
-	width: 18px;
-	height: 18px;
-}
-
-.sidebar path {
-	fill: currentColor;
-}
-
 
 /* Content */
 .content {

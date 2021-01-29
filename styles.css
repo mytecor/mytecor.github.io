@@ -45,6 +45,15 @@ body {
 	transition: 0.2s;
 }
 
+.button svg {
+	width: 18px;
+	height: 18px;
+	margin-right: 8px;
+	display: inline-block;
+	fill: currentColor;
+	vertical-align: middle;
+}
+
 .button:hover {
 	transform: scale(1.01);
 	background: #252027;
